@@ -1,0 +1,79 @@
+body{
+    background-image: url("images/birthday-lucky.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    opacity: 80%;
+    width: 50vw;
+    background-image: url("images/image1.svg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: left;
+    background-position-y: bottom;
+   background-color: antiquewhite;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    height: 80vh;
+    font-size: large;   
+    font-family: 'Gill Sans';
+
+}
+
+#birth-date, #lucky-number{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-style: bold;
+    border: 3px solid green;
+    border-radius: 4px;
+}
+
+#check-btn {
+    border-radius: 40px;
+    border: 4px groove green ;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.link {
+    text-decoration: none;
+    padding: 1.5rem 1rem;
+    display: inline;
+    flex-direction: column;
+}
+.list-item-inline{
+    display: inline;
+} 
+
+
+
+.footer {
+    background-color: #041122;
+    height: 10vh;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: #259073;
+    border-bottom-left-radius: 1rem ;
+    border-bottom-right-radius: 1rem ;
+}
+
+.footer .link {
+    color: #259073;
+} 
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
