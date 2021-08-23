@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     padding-bottom: 20px;
     border-radius: 20px;
-    /* opacity: 80%; */
+    opacity: 80%;
     width: 50vw;
     background-image: url("images/image1.svg");
     background-repeat: no-repeat;
@@ -28,10 +28,7 @@ body{
 
 }
 
-.container::before{
-    opacity: 0.25;
-    z-index: -1;
-}
+
 
 #birth-date, #lucky-number{
     width: 200px;
