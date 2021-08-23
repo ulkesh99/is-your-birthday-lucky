@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
         if (sum % luckyNumber.value == 0) {
             console.log("winner!!!!");
-            showMessage("Hurray!!Your Birthday is Luckyyyy 🎊!")
+            showMessage("Hurray!!Your Birthday is Luckyyyy 🎊")
             // console.log(luckyNumber);
         } else {
             showMessage(`Oops! ${luckyNumber.value} is not that lucky `);
